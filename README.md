@@ -70,7 +70,7 @@ run -all
 vsim -c work.Timer_adder_testbench
 run -all
 ```
-- Testa para verificar que o timer muda com a alteração do `adder` mesmo sem haver uma borda de clock.
+- Teste para verificar que o timer muda com a alteração do `adder` mesmo sem haver uma borda de clock.
 - A verificação da saída é feita automaticamente.
 
 ## ROM músicas
@@ -100,7 +100,7 @@ run -all
   - endereço da música na memória
   - palavra atual obtida da memória
   - Estado play/pause
-- Para verficar as alterações basta buscar por onde eles foram feitas com `Ctrl+F` dentro do `transcript` da simulação.
+- Para verficar as alterações basta buscar por onde elas foram feitas com `Ctrl+F` dentro do `transcript` da simulação.
 
 ## Display e Display select counter
 ```bash
